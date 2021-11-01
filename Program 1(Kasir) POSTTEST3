@@ -74,7 +74,7 @@ def kasir () :
                                     if datetime.today().isoweekday() != 6 and datetime.today().isoweekday() != 7 :
                                         total1 = total_yang_dibayar - ((total_yang_dibayar * 10/100) + (total_yang_dibayar * 10/100))
                                         print ("|Selamat, anda mendapatkan diskon sebesar 20% karena membeli 3 minuman(atau lebih) saat weekday menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -86,7 +86,7 @@ def kasir () :
                                     elif datetime.today().isoweekday() == 6 and datetime.today().isoweekday() == 7 :
                                         total1 = total_yang_dibayar - ((total_yang_dibayar * 10/100) + (total_yang_dibayar * 5/100))
                                         print ("|Selamat, anda mendapatkan diskon sebesar 15% karena membeli 3 minuman(atau lebih) saat weekend menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -99,7 +99,7 @@ def kasir () :
                                     if datetime.today().isoweekday() != 6 and datetime.today().isoweekday() != 7 :
                                         total1 = total_yang_dibayar - ((total_yang_dibayar *5/100) + (total_yang_dibayar * 10/100))
                                         print ("|Selamat, anda mendapatkan diskon sebesar 15% karena pembelian 2 makanan(atau lebih) saat weekday menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -111,7 +111,7 @@ def kasir () :
                                     elif datetime.today().isoweekday() == 6 and datetime.today().isoweekday() == 7 :
                                         total1 = total_yang_dibayar - ((total_yang_dibayar * 5/100) + (total_yang_dibayar * 5/100))
                                         print ("|Selamat, anda mendapatkan diskon sebesar 10% karena pembelian 2 makanan(atau lebih) saat weekend menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -124,7 +124,7 @@ def kasir () :
                                     if datetime.today().isoweekday() != 6 and datetime.today().isoweekday() != 7 :
                                         total1 = total_yang_dibayar - ((total_yang_dibayar * 15/100) + (total_yang_dibayar * 10/100))
                                         print ("|Selamat, anda mendapatkan diskon sebesar 25% karena pembelian 2 makanan(atau lebih)\n|dan 3 minuman(atau lebih) saat weekday menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -136,7 +136,7 @@ def kasir () :
                                     elif datetime.today().isoweekday() == 6 and datetime.today().isoweekday() == 7 :
                                         total1 = total_yang_dibayar - ((total_yang_dibayar * 15/100) + (total_yang_dibayar * 5/100))
                                         print ("|Selamat, anda mendapatkan diskon sebesar 20% karena pembelian 2 makanan(atau lebih)\n|dan 3 minumana(atau lebih) saat weekend menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -149,7 +149,7 @@ def kasir () :
                                     if datetime.today().isoweekday() != 6 and datetime.today().isoweekday() != 7 :
                                         total1 = total_yang_dibayar - (total_yang_dibayar * 10/100)
                                         print ("|Selamat, anda mendapatkan diskon sebesar 10% karena pembelian makanan/minuman saat weekday menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
@@ -161,7 +161,7 @@ def kasir () :
                                     elif datetime.today().isoweekday() == 6 and datetime.today().isoweekday() == 7 :
                                         total1 = total_yang_dibayar - (total_yang_dibayar * 5/100)
                                         print ("|Selamat, anda mendapatkan diskon sebesar 5% karena pembelian makanan/minuman saat weekend menjadi = ", total1)
-                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan? ketik \"C\" untuk cash\n|dan \"E\" untuk e-money = ")
+                                        duit = input("|Metode pembayaran apa yang ingin anda gunakan?\n|ketik \"C\" untuk cash dan \"E\" untuk e-money = ")
                                         if duit == "E" or duit == "e" :
                                             total2 = total1 - (total1 * 5/100)
                                             print ("|Selamat anda mendapatkan bonus diskon 5% penggunaan e-money menjadi = ", total2)
