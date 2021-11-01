@@ -28,9 +28,9 @@ def kasir () :
     print ("|======Silahkan pilih menu yang telah tersedia di bawah ini=====|")
     print ("|===============================================================|")
     print ("|Menu Makanan :                 Harga :                         |")
-    print ("|1. Nasi Goreng                 Rp18.000                        |")
-    print ("|2. Mie Goreng                  Rp22.000                        |")
-    print ("|3. Lontong Sayur               Rp17.000                        |")
+    print ("|1. nasi Goreng                 Rp18.000                        |")
+    print ("|2. mie Goreng                  Rp22.000                        |")
+    print ("|3. lontong Sayur               Rp17.000                        |")
     print ("|===============================================================|")
     masuk = input("|Silahkan pilih makanan yang ingin dipesan = ")
     while masuk != "keluar" :
@@ -42,15 +42,15 @@ def kasir () :
             print ("|Silahkan pilih menu yang telah tersedia di bawah ini|")
             print ("|====================================================|")
             print ("|Menu Minuman :                 Harga :              |")
-            print ("|1. Teh es/hangat               Rp 6.000             |")
-            print ("|2. Jeruk es/hangat             Rp 8.000             |")
-            print ("|3. Air mineral                 Rp 5.000             |")
+            print ("|1. teh es/hangat               Rp 6.000             |")
+            print ("|2. jeruk es/hangat             Rp 8.000             |")
+            print ("|3. air mineral                 Rp 5.000             |")
             print ("|====================================================|")
             masuk2 = input("|Silahkan ketik minuman yang anda ingin pesan disini = ")
             while masuk2 != "keluar" : 
                 if masuk2 in menu_minuman :
                     keranjang1.append(masuk2)
-                    masuk2 = input("|Minuman telah di-input,\n|Silahkan ketik minuman lain untuk lanjut meng-input,\n|atau ketik \"keluar\" untuk keluar = ")
+                    masuk2 = input("|Minuman telah di-input,\n|Silahkan ketik minuman lain untuk lanjut meng-input|\n|atau ketik \"keluar\" untuk keluar = ")
                     if masuk2 == "keluar" or masuk2 == "Keluar" or masuk2 == "KELUAR" :
                             print ("|===========================================================================================================================|")
                             print ("|===========================================================================================================================|")
