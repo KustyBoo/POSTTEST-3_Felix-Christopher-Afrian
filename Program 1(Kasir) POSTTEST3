@@ -204,7 +204,7 @@ def main_menu () :
     print("|_______________________________________________|                   ")
     print("|===================== uwu =====================|")
     print ("|-----------------------------------------------|")
-    print ("|-----Halo, Selamat Datang di Program login-----|")
+    print ("|-----Halo, Selamat Datang di Program Kasir-----|")
     print ("|-------Made by Felix Christopher Afrian--------|")
     print ("|-----------------------------------------------|")
     print ("|------------Type \"mulai\" to enter--------------|")
