@@ -36,7 +36,7 @@ def kasir () :
     while masuk != "keluar" :
         if masuk in menu_makanan :
             keranjang.append(masuk)
-            masuk = input("|Makanan telah di-input,\n|Silahkan ketik makanan lain untuk lanjut meng-input,\n|atau ketik \"minuman\" untuk lanjut meng-input minuman = ")
+            masuk = input("|Makanan telah di-input|\n|Silahkan ketik makanan lain untuk lanjut meng-input,\n|atau ketik \"minuman\" untuk lanjut meng-input minuman = ")
         if masuk == "minuman" :
             print ("|====================================================|")
             print ("|Silahkan pilih menu yang telah tersedia di bawah ini|")
@@ -50,7 +50,7 @@ def kasir () :
             while masuk2 != "keluar" : 
                 if masuk2 in menu_minuman :
                     keranjang1.append(masuk2)
-                    masuk2 = input("|Minuman telah di-input,\n|Silahkan ketik minuman lain untuk lanjut meng-input|\n|atau ketik \"keluar\" untuk keluar = ")
+                    masuk2 = input("|Minuman telah di-input|\n|Silahkan ketik minuman lain untuk lanjut meng-input|\n|atau ketik \"keluar\" untuk keluar = ")
                     if masuk2 == "keluar" or masuk2 == "Keluar" or masuk2 == "KELUAR" :
                             print ("|===========================================================================================================================|")
                             print ("|===========================================================================================================================|")
